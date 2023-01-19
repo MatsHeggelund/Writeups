@@ -4,6 +4,7 @@ In this CTF challenge we are provided an image of a schematic, and we are provid
 Here is the provided schematic.
 
 The .txt file reads as follows:
+
 acdfg abdefg adef aef abdefg abc d acdfg abdefg abcdfg d bcdeg bc acdfg abefg def abcefg bcdfg
 
 We are tasked with finding out what kind of unit this is, and to find out a way to read the flag.
