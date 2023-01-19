@@ -1,4 +1,4 @@
-##Batch Hurts
+## 7SD (Misc)
 
 In this CTF challenge we are simply provided a batch file. The challenge description tells us the file contains a valid batch script, and that they bet we can't find the flag
 
