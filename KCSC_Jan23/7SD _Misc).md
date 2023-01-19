@@ -18,7 +18,9 @@ My first guess was that the abcdefg letters could be code for which part of the 
 I then looked up an online 7 Segment Display decoder. I used the one at https://www.dcode.fr/7-segment-display, but other can work just as fine.
 
 After copy-pasting the contents of the .txt file into the decoder, we are faced with this result:
+
 ![image](https://user-images.githubusercontent.com/20840927/213544021-e593e59c-36d1-4e2b-86b3-835f58f15b99.png)
+
 
 The flag may be difficult to interpret at first glance, but the challenge tells us the flag consists of lower-case letters seperated by an undersocre
 
