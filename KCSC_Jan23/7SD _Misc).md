@@ -11,7 +11,7 @@ acdfg abdefg adef aef abdefg abc d acdfg abdefg abcdfg d bcdeg bc acdfg abefg de
 
 We are tasked with finding out what kind of unit this is, and to find out a way to read the flag.
 
-We can quickly identify this as a schematic of a 7 Segment Display by studying the schematic. This is also obvious due to the challenge name (7SD).
+We can quickly identify this as a schematic of a 7 Segment Display by studying the provided image. This is also obvious due to the challenge name (7SD).
 
 The .txt file consists of a series of words made up of letters between a and g. It seems to be some kind of code. 
 
