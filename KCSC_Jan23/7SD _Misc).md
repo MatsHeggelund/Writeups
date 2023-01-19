@@ -1,3 +1,5 @@
+## 7SD (Misc)
+
 In this CTF challenge we are provided an image of a schematic, and we are provided with a .txt file containing a series of letters. 
 ![d3b16a4356acf77e5bfb09822443428e](https://user-images.githubusercontent.com/20840927/213541909-ca6b28f3-0a53-45fa-be08-a7d7595d9b48.png)
 
