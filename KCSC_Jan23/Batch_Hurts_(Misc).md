@@ -12,7 +12,7 @@ of the set command, I learned that the it is used to set an environment variable
 
 I tried running the batch file to see what would happen if the file got to set all of those environment variables. At first glance, nothing notable happened after it ran.
 
-I opened cmd and typed "set" to view all environment variables on my pc. However, even after running the batch file, I found no out-of-place environment variables.
+I opened cmd and typed "set" to view all environment variables on my pc. Using a linux based termianl will work aswell. However, even after running the batch file, I found no out-of-place environment variables.
 
 After a tip from one of the KCSC organisers, i found out the batch file actually can't set environment variables by itself. So, I tried doing it manually.
 
