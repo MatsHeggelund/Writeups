@@ -1,5 +1,4 @@
-*
-The aliens have captured three of our crew members and is holding them hostage at different locations. Luckily, they managed to send us pictures of their surroundings. Can you figure out where they are being held captive?*
+*The aliens have captured three of our crew members and is holding them hostage at different locations. Luckily, they managed to send us pictures of their surroundings. Can you figure out where they are being held captive?*
 
 *If I remember correctly, there is a town symbol in the image of the third city.*
 
