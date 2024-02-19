@@ -26,7 +26,6 @@ Jeg brukte dette skriptet med kommandoen:
 
 ```
 python3 pylsb.py -i zellweger.png -r
-
 ```
 
 Og fikk følgende data som output:
