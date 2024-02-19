@@ -2,7 +2,7 @@ CTF: Helsectf
 
 Kategori: Stego
 
------------------- Oppgavetekst ----------------------
+*------------------ Oppgavetekst ----------------------*
 
 Jeg brukte DALL-E til å generere et bilde med følgende beskrivelse:
 
@@ -12,7 +12,7 @@ Jeg syntes det var en passende beskrivelse siden jeg har skjult et tier-bit enko
 
 Husk! Det er viktig å ha en god start puls i hvert ledd av den minst betydninsgfulle biten i diagrammet.
 
-------------------------------------------------------
+*------------------------------------------------------*
 
 Fra oppgaven får vi en png fil som heter zellweger.png
 
