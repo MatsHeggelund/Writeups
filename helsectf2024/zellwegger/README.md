@@ -1,5 +1,3 @@
-Zellweger writeup
-
 ------------------ Oppgavetekst ----------------------
 
 Jeg brukte DALL-E til å generere et bilde med følgende beskrivelse:
@@ -18,7 +16,13 @@ Et kjapt googlesøk ledet meg til githubsiden til et python skript, pylsb, som h
 https://github.com/RenanTKN/pylsb
 
 Jeg brukte dette skriptet med kommandoen:
+
+```
 python3 pylsb.py -i zellweger.png -r
+
+```
+
+Og fikk følgende data som output:
 
 ```
 v@è8°©ÀY'À;³Å
