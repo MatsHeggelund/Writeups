@@ -6,6 +6,16 @@
 
 *Example: UiTHack24{city1_city2_city3}*
 
-This CTF challenge from the misc category included three images of different locations
+This CTF challenge from the misc category included three images of different locations.
+
+The first city was found by reverse image searching the city1.png. It is an image of the ski jump in Holmenkollen (Oslo).
+
+The second city was found by analyzing the road signs given in the image, and then looking at Google Maps to figure out where E263 and E67 intersected. This was in Tallinn
+
+The third city was found by 
+
+Putting these cities together in the specified flag format, the flag is as follows:
+
+UiTHack24{Oslo_tallinn_partizanske}
 
 
