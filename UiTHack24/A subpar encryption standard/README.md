@@ -8,6 +8,7 @@ fc f9 20 52 ef fb 7f 23 18 21 aa b6 92 4d 3c ef 8f 92 4d 40 cf 40 f9 2 9f 43 ef 
 ```
 
 The python script is a *Rijndael* encryption algorithm which uses a Rijndael S-box (substitution box). This algorithm is better known as AES.
+
 To decrypt the flag, we have to find the inverse transformation of each hexadecimal character in the encrypted flag, using the s_box constructed in the python script
 
 ```
