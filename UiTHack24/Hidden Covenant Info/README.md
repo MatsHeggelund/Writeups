@@ -10,11 +10,11 @@ steghide --extract -sf Yanmee.jpg
 
 Steghide usually requires a passphrase. Since I didnt have any, i just pressed enter to submit a blank one. This worked, and the extracted data was written to "newflag.txt"
 
-Reading the contents of this textfile revealed the first half of the flag: UiTHack24{Airview in addition to a bunch of obvious whitespace.
+Reading the contents of this textfile revealed the first half of the flag: **UiTHack24{Airview** in addition to a bunch of obvious whitespace.
 
 After getting lost in cyberchef and analyzing the whitespace in a text editor, we eventually concluded that it was actually "whitespace language". 
 
-Uploading newflag.txt to the whitespace language decoder found on dcode.fr resulted in the second half of the flag being retrieved: _outpost}
+Uploading newflag.txt to the whitespace language decoder found on dcode.fr resulted in the second half of the flag being retrieved: **_outpost}**
 
 Meaning the combined flag was as follows:
 
