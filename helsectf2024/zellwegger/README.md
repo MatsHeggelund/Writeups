@@ -1,4 +1,5 @@
 CTF: Helsectf
+
 Kategori: Stego
 
 ------------------ Oppgavetekst ----------------------
