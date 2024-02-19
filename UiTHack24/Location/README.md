@@ -14,7 +14,7 @@ The first city was found by reverse image searching the city1.png. It is an imag
 
 The second city was found by analyzing the road signs given in the image, and then looking at Google Maps to figure out where E263 and E67 intersected. This was in Tallinn
 
-The third city was found by 
+The third city was found by my teammate. The location was the Slovakian city "Partizànske"
 
 Putting these cities together in the specified flag format, the flag is as follows:
 
