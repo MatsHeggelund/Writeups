@@ -1,3 +1,6 @@
+CTF: Helsectf
+Kategori: Stego
+
 ------------------ Oppgavetekst ----------------------
 
 Jeg brukte DALL-E til å generere et bilde med følgende beskrivelse:
@@ -61,5 +64,4 @@ Ved bruk av dcode.fr fikk jeg dermed flagget
 
 ```
 helsectf{bilde_steg0_done_r1ght__no_pun_intend3d_:):)}
- 
 ```
