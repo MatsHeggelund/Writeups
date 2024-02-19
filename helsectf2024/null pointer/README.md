@@ -8,7 +8,7 @@
 
 *https://helsectf2024-2da207d37b091b1b4dff-null-pointer.chals.io*
 
-===============
+======================================================================================================================================
 
 I denne CTF oppgaven får vi tildelt en URL for oppgaven, som kunne brukes for å kjøre kode i URLen
 
