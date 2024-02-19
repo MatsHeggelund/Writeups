@@ -22,7 +22,7 @@ De brukbare funksjonene var altså: open(), int(), repr(), print(), iter(), i ti
 
 Deretter så jeg på hva de ulike funkjsonene vil returnere dersom de blir kallet på. Jeg kjørte ```/?program=print(int())``` og fikk "0" skrevet ut. 
 
-Dette er navnet på filen, og helt klart en nødvendig del av koden. For å gjøre det om til en string, kan funksjonen repr brukes.
+Dette er navnet på filen, og helt klart en nødvendig del av koden. For å gjøre det om til en string, kan funksjonen repr() brukes.
 
 ```/?program=print(repr(int()))```
 
