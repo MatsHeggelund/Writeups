@@ -6,3 +6,6 @@
 
 *Example: UiTHack24{city1_city2_city3}*
 
+This CTF challenge from the misc category included three images of different locations
+
+
