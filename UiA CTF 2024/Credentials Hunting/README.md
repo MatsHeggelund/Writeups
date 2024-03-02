@@ -28,3 +28,6 @@ This gives us the hashed password for the admin user. I put this hash into a tex
 
 John cracked the password instantly: ```sashagray```
 
+Using the username *admin* and password *sashagray* I was able to log in. I was immediately provided with the flag:
+
+```UiACTF{Cr3d3ntial_Hunt_M4ster}```
