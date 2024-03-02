@@ -10,7 +10,7 @@ I begin by finding the factors for n. I use factor.db: ```http://factordb.com/in
 
 Since the ciphertext values look seperate, I try performing the RSA decryption on each of them. I add the values to an array.
 
-I used the following python script to decode the ciphertexts:
+I wrote the following python script to decode the ciphertexts:
 
 ```
 from Crypto.Util.number import long_to_bytes
