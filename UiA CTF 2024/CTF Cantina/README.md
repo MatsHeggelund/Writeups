@@ -25,7 +25,7 @@ Accept-Encoding: gzip, deflate, br
 Priority: u=1, i
 ```
 
-I figured I could change the ```Accept-Language: nb-NO``` to de-DE or nl-NL to change the menu. I first tried Germany:
+I figured I could change the ```Accept-Language: nb-NO``` to ```de-DE``` or ```nl-NL``` to change the menu. I first tried Germany:
 
 ```Accept-Language: de-DE```
 
