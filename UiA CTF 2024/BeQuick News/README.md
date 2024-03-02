@@ -86,6 +86,7 @@ This tutorial showed the file structure. If they used this flask tutorial, the w
 ```
 
 I tried pathing to /static, and it existed. Inside of static there were two folders, *css* and *tmp_upload*
+
 This seemed like the destination for all the uploaded files, considering folders like "uploads", "files" and "tips" don't exist.
 
 
