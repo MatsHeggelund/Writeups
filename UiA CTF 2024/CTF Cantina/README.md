@@ -15,7 +15,6 @@ Sec-Ch-Ua: "Chromium";v="121", "Not A(Brand";v="99"
 Accept: application/json, text/plain, */*
 Accept-Language: nb-NO
 Sec-Ch-Ua-Mobile: ?0
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.160 Safari/537.36
 Sec-Ch-Ua-Platform: "Windows"
 Sec-Fetch-Site: same-origin
 Sec-Fetch-Mode: cors
