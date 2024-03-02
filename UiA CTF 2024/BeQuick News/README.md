@@ -133,7 +133,7 @@ My opposition to these practices ultimately led to my dismissal. I believe this 
 Please contact me if you are interested in pursuing this story. you can contact me on my private email: awilliams@proton.me
  
 UIACTF{pr0tect_your_sources}
-
 ```
 
+The flag is therefore: ```UIACTF{pr0tect_your_sources}```
 
