@@ -56,6 +56,8 @@ function getCookie(name) {
 
 It seems like the script gets our username from the cookie, aswell as the current timestamp in minutes, then concatenates the strings before performing a md5 hash on it. When the file is uploaded, the filename is then replaced with ```<hash>.txt```
 
+Therefore it seems like the goal of the challenge is to find the correct file that the anonymous informant uploaded.
+
 If we try to upload a file, we are faced with the following error / response:
 
 ```
@@ -88,5 +90,8 @@ I tried pathing to /static, and it existed. Inside of static there were two fold
 
 This seemed like the destination for all the uploaded files, considering folders like "uploads", "files" and "tips" don't exist.
 
+Given the fact we have the username *tipuser* and the destination folder */static/tmp_upload*, our team began bruteforcing different timestamps. With no luck, my teammate instead began bruteforcing the current timestamp (in minutes). The thought process is that the filename might update one per minute, which makes sense considering the challenge name "**BeQuick**"
+
+With the following solve script, we were eventually given the flag:
 
 
