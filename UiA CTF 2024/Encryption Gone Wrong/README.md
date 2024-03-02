@@ -6,7 +6,7 @@ c = 136 79 91 50 33 60 98 44 146 146 51 56 103 15 51 216 56 114 75 43 5 142 51 7
 ```
 This looks like RSA, but the ciphertext values look strange to me.
 
-I begin by finding the factors for n. I use factor.db: ```http://factordb.com/index.php?query=221``` and find p = 17, q = 13
+I begin by finding the factors for n. I use factordb: ```http://factordb.com/index.php?query=221``` and find p = 17, q = 13
 
 Since the ciphertext values look seperate, I try performing the RSA decryption on each of them. I add the values to an array.
 
