@@ -70,11 +70,10 @@ I therefore tried pathing to /contact, but this did not yield any results. I the
 
 When googling this peculiar line, i found this tutorial for the flask framework: 
 ```https://code.tutsplus.com/an-introduction-to-pythons-flask-framework--net-28822t```
+
 This tutorial showed the file structure. If they used this flask tutorial, the website's file-structure should be similair
 
 ```
-.
-.
 ├── app
 │   ├── static
 │   │   ├── css
