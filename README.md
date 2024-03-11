@@ -9,4 +9,4 @@ Writeups for some challenges in CTFs I have participated in
 | Helsectf 2024                   | January 2024   |      DNF      |
 | UiTHack24                       | Febuary 2024   |      5th      |
 | UiACTF / SAK 24                 | Febuary 2024   |      2nd      |
-| Cyberlandslaget Qualifier 2024  | March 2024     |   Upcoming    |
+| Cyberlandslaget Qualifier 2024  | March 2024     | Ongoing (1st to qualify)    |
