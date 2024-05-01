@@ -1,5 +1,5 @@
-Writeups for denne CTFen offentliggjøres når konkurransen har avsluttet
+Writeups for this CTF will be made public once the event has concluded.
 
-I denne konkurransen var jeg førstemann til å fullcleare første batch med oppgaver (med unntak av on-site oppgavene, som ikke kan gjøres remote). Flere oppgaver kom den andre uka.
+In this event, I was the first one to fullclear the first batch of challenges (except the on-site challenges, as they cannot be completed remotely). The second batch of challenges were released on week 2.
 
-Endelig rangering: Ongoing
+Final rank: Ongoing
