@@ -10,6 +10,6 @@ Writeups for some challenges in CTFs I have participated in
 | UiTHack24                       | Febuary 2024   |      5th      |
 | UiACTF / SAK 24                 | Febuary 2024   |      2nd      |
 | Cyberlandslaget Qualifier 2024  | March 2024     | 1st to qualify|
-| Oslo CTF 2024                   | May 2024       | Ongoing (1st) |
+| Oslo CTF 2024                   | May 2024       | Ongoing       |
 | Cyberlandslaget Semifinals 2024 | May 2024       |  Upcoming     |
 | Cyberlandslaget Finals 2024     | June 2024      |   Upcoming    |
